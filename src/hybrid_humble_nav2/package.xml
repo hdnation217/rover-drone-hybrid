@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hybrid_humble_nav2</name>
+  <version>0.1.0</version>
+  <description>Hybrid rover/drone decision package for ROS 2 Humble, LDLIDAR, YOLO detections, and Nav2.</description>
+  <maintainer email="you@example.com">Darsh</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>vision_msgs</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,11 @@
+build/
+install/
+log/
+src/isaac_ros_common/
+src/ldlidar_ros2/sdk/
+src/ldlidar_ros2/build/
+src/hybrid_humble_nav2/yolov8n.pt
+*.engine
+*.pt
+__pycache__/
+*.pyc

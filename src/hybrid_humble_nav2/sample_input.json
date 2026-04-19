@@ -1,0 +1,125 @@
+{
+  "initial_mode": "ROVER",
+  "frames": [
+    {
+      "frame_id": 1,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "clear",
+      "detections": [
+        {
+          "label": "rock",
+          "confidence": 0.91,
+          "box": [270, 200, 370, 350]
+        }
+      ]
+    },
+    {
+      "frame_id": 2,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "clear",
+      "detections": [
+        {
+          "label": "rock",
+          "confidence": 0.92,
+          "bbox": [272, 201, 372, 351]
+        }
+      ]
+    },
+    {
+      "frame_id": 3,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "clear",
+      "detections": [
+        {
+          "label": "rock",
+          "confidence": 0.93,
+          "xyxy": [271, 200, 371, 350]
+        }
+      ]
+    },
+    {
+      "frame_id": 4,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "clear",
+      "controls": {
+        "approve_drone_switch": true
+      },
+      "detections": [
+        {
+          "label": "rock",
+          "confidence": 0.93,
+          "box": [271, 200, 371, 350]
+        }
+      ]
+    },
+    {
+      "frame_id": 5,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "clear",
+      "detections": [
+        {
+          "label": "tree",
+          "confidence": 0.88,
+          "box": [20, 160, 140, 380]
+        }
+      ]
+    },
+    {
+      "frame_id": 6,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "flat",
+      "detections": []
+    },
+    {
+      "frame_id": 7,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "flat",
+      "controls": {
+        "approve_landing": true
+      },
+      "detections": []
+    },
+    {
+      "frame_id": 8,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "flat",
+      "controls": {
+        "approve_rover_switch": true
+      },
+      "detections": []
+    },
+    {
+      "frame_id": 9,
+      "image_size": {
+        "width": 640,
+        "height": 480
+      },
+      "terrain": "clear",
+      "detections": []
+    }
+  ]
+}

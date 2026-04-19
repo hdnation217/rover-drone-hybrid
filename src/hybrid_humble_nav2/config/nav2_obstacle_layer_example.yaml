@@ -1,0 +1,30 @@
+# This snippet shows how Nav2 can consume the filtered obstacle scan published by this package.
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      observation_sources: filtered_lidar
+      filtered_lidar:
+        topic: /obstacles
+        max_obstacle_height: 2.0
+        clearing: true
+        marking: true
+        data_type: LaserScan
+        raytrace_max_range: 3.0
+        raytrace_min_range: 0.05
+        obstacle_max_range: 2.5
+        obstacle_min_range: 0.05
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      observation_sources: filtered_lidar
+      filtered_lidar:
+        topic: /obstacles
+        max_obstacle_height: 2.0
+        clearing: true
+        marking: true
+        data_type: LaserScan
+        raytrace_max_range: 6.0
+        raytrace_min_range: 0.05
+        obstacle_max_range: 5.0
+        obstacle_min_range: 0.05
